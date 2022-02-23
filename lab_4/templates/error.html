@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+</head>
+<body>
+    <h2>Error</h2>
+    <p>
+        {% if error == 1 %}
+            Форма пуста!
+        {% elif error == 2 %}
+            Такого пользователя не существует!
+        {% endif %}
+    </p>
+</body>
+</html>

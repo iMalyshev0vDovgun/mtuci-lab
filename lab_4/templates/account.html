@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        {% if data %}
+            <p>Hello, {{data[0][1]}}!</p>
+            <p>Ваш логин: {{data[0][2]}}</p>
+            <p>Ваш пароль: {{data[0][3]}}</p>
+        {% endif %}
+    </body>
+</html>
